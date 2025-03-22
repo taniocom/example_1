@@ -1,4 +1,5 @@
 import 'package:example_1/screen/example_2.dart';
+import 'package:example_1/screen/example_3.dart';
 import 'package:example_1/screen/example_screen.dart';
 import 'package:example_1/screen/home_screen.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Example2(),
+      home: const Example3(),
     );
   }
 }
